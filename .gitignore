@@ -1,0 +1,77 @@
+# ==========================================
+# 数据集与模型权重(绝对不要 commit 进 git)
+# ==========================================
+data/images/*
+!data/images/.gitkeep
+data/annotations/*
+!data/annotations/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+# 大文件类型
+*.zip
+*.tar
+*.tar.gz
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# IDE / 编辑器
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 训练日志
+# ==========================================
+runs/
+logs/
+wandb/
+tensorboard/
+lightning_logs/
+
+# ==========================================
+# 临时与系统文件
+# ==========================================
+*.log
+*.tmp
+*.bak
+.cache/
