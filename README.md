@@ -50,22 +50,6 @@ unzip data/annotations.zip -d data/annotations/ && rm data/annotations.zip
 
 
 
-## Git Workflow
-
-```
-main                  # protected, PR-only
-├── data-prep         # Phase 1 shared branch
-├── model/<name>      # one branch per member
-└── report            # final integration
-```
-
-Commit format: `<type>(<scope>): <message>` — e.g. `feat(weishu): add Luong attention`.
-
-Clear notebook outputs before committing (except final submission):
-
-```bash
-jupyter nbconvert --clear-output --inplace notebooks/*.ipynb
-```
 
 ## Evaluation
 
