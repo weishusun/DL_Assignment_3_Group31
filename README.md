@@ -41,7 +41,12 @@ unzip data/val.zip -d data/images/ && rm data/val.zip
 wget https://vizwiz.cs.colorado.edu/VizWiz_final/caption/annotations.zip -P data/
 unzip data/annotations.zip -d data/annotations/ && rm data/annotations.zip
 ```
+Expected layout after extraction:
 
+```
+data/images/val/VizWiz_val_*.jpg   (7,750 images)
+data/annotations/val.json
+```
 ## Phases
 
 - **Phase 1** — Shared data prep in `notebooks/00_shared_data_preparation.ipynb` (all members).
