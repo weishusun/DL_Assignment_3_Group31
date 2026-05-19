@@ -1,0 +1,8 @@
+Evidence,Model 1,Model 2,Stronger result
+Best validation loss,3.4880,3.4991,Model 1
+Training time,23.7 min,45.0 min,Model 1 is faster
+BLEU-1,0.5085,0.5670,Model 2
+BLEU-2,0.3230,0.3699,Model 2
+BLEU-3,0.1985,0.2425,Model 2
+BLEU-4,0.1190,0.1580,Model 2
+Main trade-off,Faster and lower validation loss,Better BLEU after beam search,Depends on priority
