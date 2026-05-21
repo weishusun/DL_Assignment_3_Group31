@@ -48,4 +48,5 @@ lightning_logs/
 *.tmp
 *.bak
 .cache/
+.torch/
 .claude/
